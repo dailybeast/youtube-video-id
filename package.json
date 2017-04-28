@@ -1,6 +1,6 @@
 {
   "name": "@dailybeast/youtube-video-id",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Extracts the YouTube video ID from a url or string.",
   "author": "Mark <mark@remarkablemark.org>",
   "main": "index.js",
