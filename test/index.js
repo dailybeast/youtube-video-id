@@ -34,6 +34,11 @@ describe('getYouTubeVideoId()', function() {
             getYouTubeVideoId('https://www.youtube.com/watch?v=k66bOHX8MnY&feature=youtu.be'),
             'k66bOHX8MnY'
         );
+
+        assert.equal(
+            getYouTubeVideoId('https://www.youtube.com/watch?time_continue=316&v=SHmzm_NgpM0'),
+            'SHmzm_NgpM0'
+        )
     });
 
     it('gets the ID from short url', function() {
